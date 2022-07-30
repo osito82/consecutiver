@@ -3,9 +3,9 @@ const { consecutiver } = require("./consecutiver");
 const log = new osolog();
 
 var masterString =
-  "abcd1234";
+  "abcd";
 
-for (i = 0; i < 1000; i++) {
+for (i = 0; i < 8; i++) {
   const str = consecutiver(i, masterString);
   log.R(str);
 }
